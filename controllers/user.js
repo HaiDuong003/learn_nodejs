@@ -10,6 +10,6 @@ export const userById = async (request, response, next, id) => {
     request.profile.password = undefined;
     next();
   } catch (error) {
-
+    response.statusHaiduon
   }
 }

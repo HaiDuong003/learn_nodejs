@@ -3,6 +3,7 @@ import express from 'express';
 const router = express.Router();
 import { listProducts, listProductDetail, createProduct, deleteProduct, updateProduct } from '../controllers/products';
 import { userById } from '../controllers/user';
+import { requiredSignin } from '../middlewares/checkAuth';
 
 
 
